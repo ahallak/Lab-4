@@ -74,7 +74,7 @@
                   </HBox>
                </top>
                <right>
-                  <SplitPane dividerPositions="0.4696969696969697" prefHeight="349.0" prefWidth="200.0" scaleY="0.75" translateY="-27.0" BorderPane.alignment="CENTER">
+                  <SplitPane dividerPositions="0.4898989898989899" prefHeight="349.0" prefWidth="200.0" scaleY="0.75" translateY="-27.0" BorderPane.alignment="CENTER">
                     <items>
                       <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
                            <children>
@@ -94,6 +94,27 @@
                     </items>
                   </SplitPane>
                </right>
+               <left>
+                  <SplitPane dividerPositions="0.51010101010101" prefHeight="321.0" prefWidth="200.0" scaleY="0.75" translateY="-27.0" BorderPane.alignment="CENTER">
+                    <items>
+                      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+                           <children>
+                              <ImageView fitHeight="140.0" fitWidth="100.0" layoutX="4.0" layoutY="3.0" pickOnBounds="true" preserveRatio="true" />
+                              <ImageView fitHeight="140.0" fitWidth="100.0" layoutX="3.0" layoutY="143.0" pickOnBounds="true" preserveRatio="true" />
+                              <ImageView fitHeight="140.0" fitWidth="100.0" layoutX="-1.0" layoutY="286.0" pickOnBounds="true" preserveRatio="true" />
+                           </children>
+                        </AnchorPane>
+                      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+                           <children>
+                              <ImageView fitHeight="140.0" fitWidth="100.0" layoutX="1.0" layoutY="4.0" pickOnBounds="true" preserveRatio="true" />
+                              <ImageView fitHeight="140.0" fitWidth="100.0" layoutY="144.0" pickOnBounds="true" preserveRatio="true" />
+                              <ImageView fitHeight="140.0" fitWidth="100.0" layoutX="-4.0" layoutY="287.0" pickOnBounds="true" preserveRatio="true" />
+                              <ImageView fitHeight="140.0" fitWidth="100.0" layoutX="105.0" layoutY="42.0" pickOnBounds="true" preserveRatio="true" />
+                           </children>
+                        </AnchorPane>
+                    </items>
+                  </SplitPane>
+               </left>
             </BorderPane>
          </children></AnchorPane>
    </children>
